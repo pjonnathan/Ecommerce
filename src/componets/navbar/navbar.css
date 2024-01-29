@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.navbar h1 {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 4rem;
+}
+
+.menu-nav .nav {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.signup {
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+}
+
+.nav-cart-cont {
+    width: 1.8rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.5rem;
+    border-radius: 1.1rem;
+    font-size: 0.8rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.img-nav {
+    margin-top: -1.2rem;
+}

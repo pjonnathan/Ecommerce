@@ -1,0 +1,48 @@
+.hero {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center button {
+    background-color: black;
+    color: white;
+    margin-left: 9rem;
+    padding: 1rem;
+    border: none;
+    width: 23rem;
+    border-radius: 0.5rem;
+}
+
+.container-left {
+    background-color: #E0E0E0;
+    border-radius: 0.5rem;
+}
+
+.top {
+    background-color: #E0E0E0;
+    border-radius: 0.5rem;
+}
+
+.container-right {
+    background-color: #E0E0E0;
+    border-radius: 0.5rem;
+}
+
+.buttom {
+    background-size: cover;
+}
+
+.container-center {
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+}
