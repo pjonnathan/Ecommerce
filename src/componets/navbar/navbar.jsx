@@ -14,7 +14,7 @@ const Navbar = () => {
                     <Link to='/cart'><img className='img-nav' src={cartIcon} alt="" /></Link>
                     <div className="nav-cart-cont">0</div>
                 </li>
-                <li className='signup'><Link style={{ color: 'white' }} to='/login'>Login</Link></li>
+                <li className='signup'><Link style={{ color: 'white' }} to='/LoginSignup'>Login</Link></li>
             </ul>
         </div>
     )
